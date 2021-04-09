@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8320D01F262088F2006FA208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D01E262088F2006FA208 /* AppDelegate.m */; };
+		8320D022262088F2006FA208 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D021262088F2006FA208 /* SceneDelegate.m */; };
+		8320D025262088F2006FA208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D024262088F2006FA208 /* ViewController.m */; };
+		8320D028262088F2006FA208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8320D026262088F2006FA208 /* Main.storyboard */; };
+		8320D02A262088F3006FA208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8320D029262088F3006FA208 /* Assets.xcassets */; };
+		8320D02D262088F3006FA208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8320D02B262088F3006FA208 /* LaunchScreen.storyboard */; };
+		8320D030262088F3006FA208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D02F262088F3006FA208 /* main.m */; };
+		8320D03A262088F4006FA208 /* _8__NSDictionaryHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D039262088F4006FA208 /* _8__NSDictionaryHomeWorkTests.m */; };
+		8320D045262088F4006FA208 /* _8__NSDictionaryHomeWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320D044262088F4006FA208 /* _8__NSDictionaryHomeWorkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8320D036262088F4006FA208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8320D012262088F2006FA208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8320D019262088F2006FA208;
+			remoteInfo = "08. NSDictionaryHomeWork";
+		};
+		8320D041262088F4006FA208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8320D012262088F2006FA208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8320D019262088F2006FA208;
+			remoteInfo = "08. NSDictionaryHomeWork";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8320D01A262088F2006FA208 /* 08. NSDictionaryHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08. NSDictionaryHomeWork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320D01D262088F2006FA208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8320D01E262088F2006FA208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8320D020262088F2006FA208 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8320D021262088F2006FA208 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8320D023262088F2006FA208 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8320D024262088F2006FA208 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8320D027262088F2006FA208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8320D029262088F3006FA208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8320D02C262088F3006FA208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8320D02E262088F3006FA208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8320D02F262088F3006FA208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8320D035262088F4006FA208 /* 08. NSDictionaryHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08. NSDictionaryHomeWorkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320D039262088F4006FA208 /* _8__NSDictionaryHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8__NSDictionaryHomeWorkTests.m; sourceTree = "<group>"; };
+		8320D03B262088F4006FA208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8320D040262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08. NSDictionaryHomeWorkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320D044262088F4006FA208 /* _8__NSDictionaryHomeWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8__NSDictionaryHomeWorkUITests.m; sourceTree = "<group>"; };
+		8320D046262088F4006FA208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8320D017262088F2006FA208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D032262088F4006FA208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D03D262088F4006FA208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8320D011262088F2006FA208 = {
+			isa = PBXGroup;
+			children = (
+				8320D01C262088F2006FA208 /* 08. NSDictionaryHomeWork */,
+				8320D038262088F4006FA208 /* 08. NSDictionaryHomeWorkTests */,
+				8320D043262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests */,
+				8320D01B262088F2006FA208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8320D01B262088F2006FA208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8320D01A262088F2006FA208 /* 08. NSDictionaryHomeWork.app */,
+				8320D035262088F4006FA208 /* 08. NSDictionaryHomeWorkTests.xctest */,
+				8320D040262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8320D01C262088F2006FA208 /* 08. NSDictionaryHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				8320D01D262088F2006FA208 /* AppDelegate.h */,
+				8320D01E262088F2006FA208 /* AppDelegate.m */,
+				8320D020262088F2006FA208 /* SceneDelegate.h */,
+				8320D021262088F2006FA208 /* SceneDelegate.m */,
+				8320D023262088F2006FA208 /* ViewController.h */,
+				8320D024262088F2006FA208 /* ViewController.m */,
+				8320D026262088F2006FA208 /* Main.storyboard */,
+				8320D029262088F3006FA208 /* Assets.xcassets */,
+				8320D02B262088F3006FA208 /* LaunchScreen.storyboard */,
+				8320D02E262088F3006FA208 /* Info.plist */,
+				8320D02F262088F3006FA208 /* main.m */,
+			);
+			path = "08. NSDictionaryHomeWork";
+			sourceTree = "<group>";
+		};
+		8320D038262088F4006FA208 /* 08. NSDictionaryHomeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8320D039262088F4006FA208 /* _8__NSDictionaryHomeWorkTests.m */,
+				8320D03B262088F4006FA208 /* Info.plist */,
+			);
+			path = "08. NSDictionaryHomeWorkTests";
+			sourceTree = "<group>";
+		};
+		8320D043262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8320D044262088F4006FA208 /* _8__NSDictionaryHomeWorkUITests.m */,
+				8320D046262088F4006FA208 /* Info.plist */,
+			);
+			path = "08. NSDictionaryHomeWorkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8320D019262088F2006FA208 /* 08. NSDictionaryHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320D049262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWork" */;
+			buildPhases = (
+				8320D016262088F2006FA208 /* Sources */,
+				8320D017262088F2006FA208 /* Frameworks */,
+				8320D018262088F2006FA208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08. NSDictionaryHomeWork";
+			productName = "08. NSDictionaryHomeWork";
+			productReference = 8320D01A262088F2006FA208 /* 08. NSDictionaryHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8320D034262088F4006FA208 /* 08. NSDictionaryHomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320D04C262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWorkTests" */;
+			buildPhases = (
+				8320D031262088F4006FA208 /* Sources */,
+				8320D032262088F4006FA208 /* Frameworks */,
+				8320D033262088F4006FA208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8320D037262088F4006FA208 /* PBXTargetDependency */,
+			);
+			name = "08. NSDictionaryHomeWorkTests";
+			productName = "08. NSDictionaryHomeWorkTests";
+			productReference = 8320D035262088F4006FA208 /* 08. NSDictionaryHomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8320D03F262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320D04F262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWorkUITests" */;
+			buildPhases = (
+				8320D03C262088F4006FA208 /* Sources */,
+				8320D03D262088F4006FA208 /* Frameworks */,
+				8320D03E262088F4006FA208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8320D042262088F4006FA208 /* PBXTargetDependency */,
+			);
+			name = "08. NSDictionaryHomeWorkUITests";
+			productName = "08. NSDictionaryHomeWorkUITests";
+			productReference = 8320D040262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8320D012262088F2006FA208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8320D019262088F2006FA208 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8320D034262088F4006FA208 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8320D019262088F2006FA208;
+					};
+					8320D03F262088F4006FA208 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8320D019262088F2006FA208;
+					};
+				};
+			};
+			buildConfigurationList = 8320D015262088F2006FA208 /* Build configuration list for PBXProject "08. NSDictionaryHomeWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8320D011262088F2006FA208;
+			productRefGroup = 8320D01B262088F2006FA208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8320D019262088F2006FA208 /* 08. NSDictionaryHomeWork */,
+				8320D034262088F4006FA208 /* 08. NSDictionaryHomeWorkTests */,
+				8320D03F262088F4006FA208 /* 08. NSDictionaryHomeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8320D018262088F2006FA208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320D02D262088F3006FA208 /* LaunchScreen.storyboard in Resources */,
+				8320D02A262088F3006FA208 /* Assets.xcassets in Resources */,
+				8320D028262088F2006FA208 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D033262088F4006FA208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D03E262088F4006FA208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8320D016262088F2006FA208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320D025262088F2006FA208 /* ViewController.m in Sources */,
+				8320D01F262088F2006FA208 /* AppDelegate.m in Sources */,
+				8320D030262088F3006FA208 /* main.m in Sources */,
+				8320D022262088F2006FA208 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D031262088F4006FA208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320D03A262088F4006FA208 /* _8__NSDictionaryHomeWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320D03C262088F4006FA208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320D045262088F4006FA208 /* _8__NSDictionaryHomeWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8320D037262088F4006FA208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8320D019262088F2006FA208 /* 08. NSDictionaryHomeWork */;
+			targetProxy = 8320D036262088F4006FA208 /* PBXContainerItemProxy */;
+		};
+		8320D042262088F4006FA208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8320D019262088F2006FA208 /* 08. NSDictionaryHomeWork */;
+			targetProxy = 8320D041262088F4006FA208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8320D026262088F2006FA208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320D027262088F2006FA208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8320D02B262088F3006FA208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320D02C262088F3006FA208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8320D047262088F4006FA208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8320D048262088F4006FA208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8320D04A262088F4006FA208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8320D04B262088F4006FA208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8320D04D262088F4006FA208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWorkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08. NSDictionaryHomeWork.app/08. NSDictionaryHomeWork";
+			};
+			name = Debug;
+		};
+		8320D04E262088F4006FA208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWorkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08. NSDictionaryHomeWork.app/08. NSDictionaryHomeWork";
+			};
+			name = Release;
+		};
+		8320D050262088F4006FA208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWorkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "08. NSDictionaryHomeWork";
+			};
+			name = Debug;
+		};
+		8320D051262088F4006FA208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2D88P9NV;
+				INFOPLIST_FILE = "08. NSDictionaryHomeWorkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytrosayko.-8--NSDictionaryHomeWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "08. NSDictionaryHomeWork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8320D015262088F2006FA208 /* Build configuration list for PBXProject "08. NSDictionaryHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320D047262088F4006FA208 /* Debug */,
+				8320D048262088F4006FA208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320D049262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320D04A262088F4006FA208 /* Debug */,
+				8320D04B262088F4006FA208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320D04C262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320D04D262088F4006FA208 /* Debug */,
+				8320D04E262088F4006FA208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320D04F262088F4006FA208 /* Build configuration list for PBXNativeTarget "08. NSDictionaryHomeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320D050262088F4006FA208 /* Debug */,
+				8320D051262088F4006FA208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8320D012262088F2006FA208 /* Project object */;
+}
